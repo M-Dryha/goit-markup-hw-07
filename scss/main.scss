@@ -1,0 +1,25 @@
+// UTILS
+@import "./utils/_var-scc";
+@import "./utils/visually-hidden";
+
+// BASE
+@import "./base/common";
+
+// COMPONENTS
+@import "./components/container";
+@import "./components/section";
+@import "./components/nav__logo";
+@import "./components/hero_btn";
+@import "./components/header-item";
+@import "./components/social-list";
+@import "./components/footer-form";
+
+// LAYOUT
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/section-photo";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
