@@ -4,10 +4,10 @@
 
 .photo-list {
   display: flex;
-}
 
-.photo-list__item:not(:last-child) {
-  margin-right: 30px;
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .photo-list__wrapper {

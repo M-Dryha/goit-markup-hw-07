@@ -5,6 +5,11 @@
     margin-right: 50px;
   }
 }
+
+.navigation-list--margin {
+  margin-left: 93px;
+}
+
 .navigation-list > .list {
   display: inline-block;
 }
@@ -58,10 +63,13 @@
 
 .contacts {
   display: flex;
+}
+
+.contacts--margin-left {
   margin-left: auto;
 }
 
-.contacts-list__link {
+.contacts__link {
   display: flex;
   font-family: inherit;
   font-weight: 500;
@@ -81,11 +89,11 @@
   }
 }
 
-.contacts-list:not(:last-child) {
+.contacts__list:not(:last-child) {
   margin-right: 50px;
 }
 
-.contacts-list__envelope {
+.contacts__envelope {
   margin-right: 10px;
   fill: currentColor;
 }

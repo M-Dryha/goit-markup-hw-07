@@ -11,7 +11,6 @@
     padding: 10px 28px;
     margin-left: 12px;
 
-    font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30 / 16);
@@ -36,18 +35,18 @@
   background-color: #2f303a;
   padding: 15px 15px 15px 15px;
   color: var(--secondary-color-text);
-}
 
-.footer-form-input::placeholder {
-  display: block;
+  &::placeholder {
+    display: block;
 
-  font-weight: 400;
-  font-size: 16px;
-  line-height: calc(20 / 16);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(20 / 16);
 
-  letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
 
-  color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .footer-form-icon {
